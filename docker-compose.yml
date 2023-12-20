@@ -1,0 +1,38 @@
+#docker-compose.yml
+version: "3.8"
+services:
+  datascientestapi:
+    image: datascientest/fastapi:1.0.0
+    container_name: my_datascientest
+    ports:
+      - 8000:8000
+  authentication:
+    container_name: docker_exam_authentication
+    build: ./Authentication
+    command: sh -c "uvicorn Authentication:authentication_app --reload --port=8001 --host=0.0.0.0"
+    env_file:
+      - ./Authentication/.env/
+    ports:
+      - 8001:8001
+    volumes:
+      - ./Authentication:/Authentication
+  authorization:
+    container_name: docker_exam_authorization
+    build: ./Authorization
+    command: sh -c "uvicorn Authorization:authorization_app --reload --port=8002 --host=0.0.0.0"
+    env_file:
+      - ./Authorization/.env/
+    ports:
+      - 8002:8002
+    volumes:
+      - ./Authorization:/Authorization
+  content:
+    container_name: docker_exam_content
+    build: ./Content
+    command: sh -c "uvicorn Content:content_app --reload --port=8003 --host=0.0.0.0"
+    env_file:
+      - ./Content/.env/
+    ports:
+      - 8003:8003
+    volumes:
+      - ./Content:/Content

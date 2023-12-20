@@ -1,0 +1,20 @@
+# Ignore zip files (cause to high size)
+*.zip
+# Ignore tar files (cause to high size)
+*.tar
+# Ignore macOS (Operating System) system (masked) files
+.DS_Store
+.DS_Store?
+# Ignore log files
+*error.log*
+*debug.log*
+# Ignore Runtime data (recommands)
+pids
+*.pid
+*.seed
+*.pid.lock
+# Ignore Environments (recommands)
+.venv
+venv/
+env.bak/
+venv.bak/

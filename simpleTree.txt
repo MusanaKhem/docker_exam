@@ -1,0 +1,42 @@
+.
+├── Authentication
+│   ├── Authentication.py
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── var
+│       └── lib
+│           └── docker
+│               └── volumes
+│                   └── authentication_volume
+│                       └── _data
+│                           └── log.txt
+├── Authorization
+│   ├── Authorization.py
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── var
+│       └── lib
+│           └── docker
+│               └── volumes
+│                   └── authorization_volume
+│                       └── _data
+│                           └── log.txt
+├── Content
+│   ├── Content.py
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── var
+│       └── lib
+│           └── docker
+│               └── volumes
+│                   └── content_volume
+│                       └── _data
+│                           └── log.txt
+├── README.md
+├── README.txt
+├── docker-compose.yml
+├── setup.sh
+├── simpleTree.txt
+└── tree.txt
+
+21 directories, 18 files
