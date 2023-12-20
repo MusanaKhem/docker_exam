@@ -1,0 +1,205 @@
+=========================================================
+START INDEX CONTEXT API SUCCESS - PRINT TEST SUCCESS
+You are accessing to content_API 
+END CONTEXT INDEX API SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+=========================================================
+START INDEX CONTEXT API SUCCESS - PRINT TEST SUCCESS
+You are accessing to content_API 
+END CONTEXT INDEX API SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+=========================================================
+START INDEX CONTEXT API SUCCESS - PRINT TEST SUCCESS
+You are accessing to content_API 
+END CONTEXT INDEX API SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:48:41
+========================================================================
+START CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS 2023-12-20 10:48:41
+Hi alice, your authentication failed. Please check your login credentials.
+END CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:48:49
+Here we get content app's user authentication's data.
+-> Username : alice with Userpassword : wonderland login is success.
+END CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:48:58
+========================================================================
+START CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS 2023-12-20 10:48:58
+Hi bob, your authentication failed. Please check your login credentials.
+END CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:49:01
+Here we get content app's user authentication's data.
+-> Username : bob with Userpassword : builder login is success.
+END CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:49:24
+========================================================================
+START CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS 2023-12-20 10:49:24
+Hi alice, your authentication failed. Please check your login credentials.
+END CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+-----------------------------------------------------------------------------------------START CONTENT V1 PERMISSION TO ACCESS V1 ANALYSIS FAILED - PRINT TEST SUCCESS 2023-12-20 10:49:24
+Hi alice your are unauthorized access to v2 sentiment analysis. Your are authorized access to Authentication failed. Please check your credentials. analisys model.
+END CONTENT PERMISSION TO ACCESS V1 ANALYSIS FAILED - PRINT TEST SUCCESS 2023-12-20 10:49:24
+-----------------------------------------------------------------------------------------================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:49:34
+Here we get content app's user authentication's data.
+-> Username : alice with Userpassword : wonderland login is success.
+END CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+===========================================================================
+START CONTENT SENTIMENT V1 ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:49:34
+-> Username : alice with Userpassword : wonderland is authorize to acces : ['v1', 'v2'] model version(s).
+-> Hi, alice. your are authorize access to v1 analisys model version. Your sentence is : life is beautiful. That sentence score is : 0.5.
+END CONTENT SENTIMENT V1 ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:49:42
+Here we get content app's user authentication's data.
+-> Username : alice with Userpassword : wonderland login is success.
+END CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+===========================================================================
+START CONTENT SENTIMENT V1 ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:49:42
+-> Username : alice with Userpassword : wonderland is authorize to acces : ['v1', 'v2'] model version(s).
+-> Hi, alice. your are authorize access to v1 analisys model version. Your sentence is : that sucks. That sentence score is : -0.5.
+END CONTENT SENTIMENT V1 ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:49:59
+========================================================================
+START CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS 2023-12-20 10:49:59
+Hi bob, your authentication failed. Please check your login credentials.
+END CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+-----------------------------------------------------------------------------------------START CONTENT V1 PERMISSION TO ACCESS V1 ANALYSIS FAILED - PRINT TEST SUCCESS 2023-12-20 10:49:59
+Hi bob your are unauthorized access to v2 sentiment analysis. Your are authorized access to Authentication failed. Please check your credentials. analisys model.
+END CONTENT PERMISSION TO ACCESS V1 ANALYSIS FAILED - PRINT TEST SUCCESS 2023-12-20 10:49:59
+-----------------------------------------------------------------------------------------================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:50:06
+Here we get content app's user authentication's data.
+-> Username : bob with Userpassword : builder login is success.
+END CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+===========================================================================
+START CONTENT SENTIMENT V1 ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:50:06
+-> Username : bob with Userpassword : builder is authorize to acces : ['v1'] model version(s).
+-> Hi, bob. your are authorize access to v1 analisys model version. Your sentence is : that sucks. That sentence score is : -0.5.
+END CONTENT SENTIMENT V1 ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:50:17
+Here we get content app's user authentication's data.
+-> Username : bob with Userpassword : builder login is success.
+END CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+===========================================================================
+START CONTENT SENTIMENT V1 ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:50:17
+-> Username : bob with Userpassword : builder is authorize to acces : ['v1'] model version(s).
+-> Hi, bob. your are authorize access to v1 analisys model version. Your sentence is : life is beautiful. That sentence score is : 0.5.
+END CONTENT SENTIMENT V1 ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:50:56
+========================================================================
+START CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS 2023-12-20 10:50:56
+Hi bob, your authentication failed. Please check your login credentials.
+END CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+-----------------------------------------------------------------------------------------START CONTENT V2 PERMISSION TO ACCESS V2 ANALYSIS FAILED - PRINT TEST SUCCESS 2023-12-20 10:50:56
+Hi bob your are unauthorized access to v2 sentiment analysis. Your are authorized access to Authentication failed. Please check your credentials. analisys model.
+END CONTENT PERMISSION TO ACCESS V2 ANALYSIS FAILED - PRINT TEST SUCCESS 2023-12-20 10:50:56
+-----------------------------------------------------------------------------------------================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:51:06
+Here we get content app's user authentication's data.
+-> Username : bob with Userpassword : builder login is success.
+END CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+-----------------------------------------------------------------------------------------START CONTENT V2 PERMISSION TO ACCESS V2 ANALYSIS FAILED - PRINT TEST SUCCESS 2023-12-20 10:51:06
+Hi bob your are unauthorized access to v2 sentiment analysis. Your are authorized access to ['v1'] analisys model.
+END CONTENT PERMISSION TO ACCESS V2 ANALYSIS FAILED - PRINT TEST SUCCESS 2023-12-20 10:51:06
+-----------------------------------------------------------------------------------------================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:51:27
+========================================================================
+START CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS 2023-12-20 10:51:27
+Hi alice, your authentication failed. Please check your login credentials.
+END CONTENT AUTHENTICATE USER FAILED - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+-----------------------------------------------------------------------------------------START CONTENT V2 PERMISSION TO ACCESS V2 ANALYSIS FAILED - PRINT TEST SUCCESS 2023-12-20 10:51:27
+Hi alice your are unauthorized access to v2 sentiment analysis. Your are authorized access to Authentication failed. Please check your credentials. analisys model.
+END CONTENT PERMISSION TO ACCESS V2 ANALYSIS FAILED - PRINT TEST SUCCESS 2023-12-20 10:51:27
+-----------------------------------------------------------------------------------------================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:51:36
+Here we get content app's user authentication's data.
+-> Username : alice with Userpassword : wonderland login is success.
+END CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+==========================================================================
+START CONTENT SENTIMENT V2 ACCESS SUCCESS - PRINT TEST SUCCESS2023-12-20 10:51:36
+-> Username : alice with Userpassword : wonderland is authorize to acces : ['v1', 'v2'] model version(s).
+-> Hi, alice. your are authorize access to v2 analisys model version. Your sentence is : life is beautiful. That sentence score is : 0.5.
+END CONTENT SENTIMENT V2 ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:51:41
+Here we get content app's user authentication's data.
+-> Username : alice with Userpassword : wonderland login is success.
+END CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+==========================================================================
+START CONTENT SENTIMENT V2 ACCESS SUCCESS - PRINT TEST SUCCESS2023-12-20 10:51:41
+-> Username : alice with Userpassword : wonderland is authorize to acces : ['v1', 'v2'] model version(s).
+-> Hi, alice. your are authorize access to v2 analisys model version. Your sentence is : that sucks. That sentence score is : -0.5.
+END CONTENT SENTIMENT V2 ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:51:46
+Here we get content app's user authentication's data.
+-> Username : alice with Userpassword : wonderland login is success.
+END CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+==========================================================================
+START CONTENT SENTIMENT V2 ACCESS SUCCESS - PRINT TEST SUCCESS2023-12-20 10:51:46
+-> Username : alice with Userpassword : wonderland is authorize to acces : ['v1', 'v2'] model version(s).
+-> Hi, alice. your are authorize access to v2 analisys model version. Your sentence is : that s. That sentence score is : That sentence can not be check by that kind of analysis model. Try accepted sentences like <life is beautiful> or <that sucks>. Thank you for understanding..
+END CONTENT SENTIMENT V2 ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+================================================================================
+START CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS 2023-12-20 10:51:57
+Here we get content app's user authentication's data.
+-> Username : alice with Userpassword : wonderland login is success.
+END CONTENT AUTHENTICATE USER ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+==========================================================================
+START CONTENT SENTIMENT V2 ACCESS SUCCESS - PRINT TEST SUCCESS2023-12-20 10:51:57
+-> Username : alice with Userpassword : wonderland is authorize to acces : ['v1', 'v2'] model version(s).
+-> Hi, alice. your are authorize access to v2 analisys model version. Your sentence is : that sucks. That sentence score is : -0.5.
+END CONTENT SENTIMENT V2 ACCESS SUCCESS - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+======================================================================
+START CONTENT ENVIRONEMENT VARIABLES - PRINT TEST SUCCESS 2023-12-20 10:52:11
+-> Var: API_PORT, Value: 8003
+-> Var: HOSTNAME, Value: f8c800ebfd97
+-> Var: PYTHON_PIP_VERSION, Value: 21.1.3
+-> Var: HOME, Value: /root
+-> Var: MY_VARIABLE, Value: content_API
+-> Var: GPG_KEY, Value: E3FF2839C048B25C084DEBE9B26995E310250568
+-> Var: PYTHON_GET_PIP_URL, Value: https://github.com/pypa/get-pip/raw/a1675ab6c2bd898ed82b1f58c486097f763c74a9/public/get-pip.py
+-> Var: PATH, Value: /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+-> Var: LANG, Value: C.UTF-8
+-> Var: LOG_URL, Value: /var/lib/docker/volumes/content_volume/_data
+-> Var: PYTHON_VERSION, Value: 3.8.10
+-> Var: PWD, Value: /Content
+-> Var: PYTHON_GET_PIP_SHA256, Value: 6665659241292b2147b58922b9ffe11dda66b39d52d8a6f3aa310bc1d60ea6f7
+-> Var: API_ADDRESS, Value: 52.31.149.201
+-> Var: LOG, Value: 1
+END CONTENT ENVIRONEMENT VARIABLES - PRINT TEST SUCCESS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
