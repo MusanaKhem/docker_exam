@@ -20,6 +20,7 @@
 # Authentication/__pycache__/                -> 
 # Authentication/authentication_api_volume/  -> Autentication mounted volume
 # Authentication/.env                        -> Authentication app environment variables
+# Authentication/var/                        -> Folder were docker volume and log file is located (Authentication/var/lib/docker/volumes/authentication_volume/_data/log.txt)
 #
 # Authorization/                             -> Authorization app main folder
 # Authorization/Authorization.py             -> authorization app
@@ -29,6 +30,7 @@
 # Authorization/__pycache__/                 -> 
 # Authorization/authorization_api_volume/    -> Authorization mounted volume
 # Authorization/.env                         -> Content app environment variables
+# Authorization/var/                         -> Folder were docker volume and log file is located (Autorization/var/lib/docker/volumes/authorization_volume/_data/log.txt)
 #
 # Content/                                   -> Content app main folder
 # Content/Authorization.py                   -> content app
@@ -38,6 +40,7 @@
 # Content/__pycache__/                       -> 
 # Content/content_api_volume/                -> Content mounted volume
 # Content/.env                               -> Content app environment variables
+# Content/var/                               -> Folder were docker volume and log file is located (Content/var/lib/docker/volumes/content_volume/_data/log.txt)
 #
 # docker-compose.yml
 # setup.sh/
@@ -120,9 +123,11 @@
 # Each '.env' app file have the same 'API_ADDRESS' and 'LOG' values.
 # But 'MY_VARIABLE' and 'API_PORT' are different
 # Rebuild containers.
-# 
-# 
-# 
+# Virtual environment can be activate using that below command 'source env/bin/activate'
+# Virtual environment can be stopped usign that below command 'deactivate'
+# Each API folder have its own virtual environment folder. They can be 'activate' or 'deactivate' separately 
+# Virtual Environment allow you to test API faster and easilier.
+#
 #
 ###########################################
 ### STEP 5 ####### SAVE APPS IMAGES #######
@@ -132,6 +137,8 @@
 # docker image save --output docker_exam_authentication.tar docker_exam_authentication
 # docker image save --output docker_exam_authorization.tar docker_exam_authorization
 # docker image save --output docker_exam_content.tar docker_exam_content
+# YOUR ATTENTION PLEASE : I've tried to save API images but their sizes are too high to be pushed through GitHub repository.
+# If you want to test it, you can run the below script named 'build_images.sh'
 #
 #
 #######################################################################################################
@@ -148,7 +155,7 @@
 #         - docker --version
 #         - systemctl status docker
 #
-# 3 -> Check if python3 and
+# 3 -> All necessary tools will be installed through Dockerfile. Not necessary to install Python3 on your machine.
 #
 # 4 -> To be able to modify, set virtual environment variables, without stopping and rebuilding app
 #      you change 'API_ADDRESS' variable value. Replace it with your machine IP address.
@@ -156,56 +163,51 @@
 #         - Authorization/.env
 #         - Content/.env
 #
-# 5 -> To ckeck app on your browser you can test following lines :
-#         - http://IP_ADDRESS:8000/docs
+# 5 -> RUN THE SCRIPT 'setup.sh'
+#
+# 6 -> To ckeck app on your browser you can test following lines :
 #         - http://IP_ADDRESS:8001/
 #         - http://IP_ADDRESS:8002/
 #         - http://IP_ADDRESS:8003/
 #
-# 6 -> You can also ckeck app on your browser you can test following lines :
+# 7 -> You can also ckeck app on your browser you can test following lines :
 #         - http://IP_ADDRESS:8000/docs
 #         - http://IP_ADDRESS:8001/docs
 #         - http://IP_ADDRESS:8002/docs
 #         - http://IP_ADDRESS:8003/docs
 #
-# 7 -> See logs contents (log.txt) for each API from out of the containers
+# 8 -> See logs contents (log.txt) for each API from out of the containers
 #
 #         APP 1
-#         - ls Authentication/authentication_api_volume/
-#         - ls Authentication/authentication_api_volume/_data/
-#         - cat Authentication/authentication_api_volume/_data/log.txt
+#         - ls Authentication/var/lib/docker/volumes/authentication_volume/_data
+#         - cat Authentication/var/lib/docker/volumes/authentication_volume/_data/log.txt
 #
 #         APP 2
-#         - ls Authorization/authorization_api_volume/
-#         - ls Authorization/authorization_api_volume/_data/
-#         - cat Authorization/authorization_api_volume/_data/log.txt
+#         - ls Authorization/var/lib/docker/volumes/authorization_volume/_data
+#         - cat Authorization/var/lib/docker/volumes/authorization_volume/_data/log.txt
 #
 #         APP 3
-#         - ls Content/content_api_volume/
-#         - ls Content/content_api_volume/_data/
-#         - cat Content/content_api_volume/_data/log.txt
+#         - ls Content/var/lib/docker/volumes/content_volume/_data
+#         - cat Content/var/lib/docker/volumes/content_volume/_data/log.txt
 #
 # 8 -> See logs contents (log.txt) for each API from into the containers
 #
 #         APP 1
 #         - docker exec -ti docker_exam_authentication bash
-#         - ls authentication_api_volume/
-#         - ls authentication_api_volume/_data/
-#         - cat Authentication/authentication_api_volume/_data/log.txt
+#         - ls var/lib/docker/volumes/authentication_volume/_data/
+#         - cat var/lib/docker/volumes/authentication_volume/_data/log.txt
 #         - exit
 #
 #         APP 2
 #         - docker exec -ti docker_exam_authorization bash
-#         - ls authorization_api_volume/
-#         - ls authorization_api_volume/_data/
-#         - cat Authorization/authorization_api_volume/_data/log.txt
+#         - ls var/lib/docker/volumes/authorization_volume/_data/
+#         - cat var/lib/docker/volumes/authorization_volume/_data/log.txt
 #         - exit
 #
 #         APP 3
 #         - docker exec -ti docker_exam_content bash
-#         - ls content_api_volume/
-#         - ls content_api_volume/_data/
-#         - cat Content/content_api_volume/_data/log.txt
+#         - ls var/lib/docker/volumes/content_volume/_data/
+#         - cat var/lib/docker/volumes/content_volume/_data/log.txt
 #         - exit
 #
 #
