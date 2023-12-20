@@ -1,0 +1,87 @@
+===============================================
+START INDEX - SUCCESS PRINT TEST 2023-12-20 10:37:52
+-> You are accessing to authentication_API
+
+END OF INDEX - SUCCESS PRINT TEST 
+- - - - - - - - - - - - - - - - - - - - - - - -
+===============================================
+START INDEX - SUCCESS PRINT TEST 2023-12-20 10:39:11
+-> You are accessing to authentication_API
+
+END OF INDEX - SUCCESS PRINT TEST 
+- - - - - - - - - - - - - - - - - - - - - - - -
+=========================================================
+START AUTHENTICATE USER - SUCCESS PRINT TEST 2023-12-20 10:39:47
+========================================================
+START AUTHENTICATE USER - FAILED PRINT TEST 2023-12-20 10:39:47
+Authentication failed.
+-> Check your login credentials.
+END AUTHENTICATE USER - FAILED PRINT TEST 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+=========================================================
+START AUTHENTICATE USER - SUCCESS PRINT TEST 2023-12-20 10:39:52
+Authentication success.
+-> Username : alice with Userpassword : wonderland, your are correctly authenticate.
+END AUTHENTICATE USER - SUCCESS PRINT TEST 
+=====================================================
+=========================================================
+START AUTHENTICATE USER - SUCCESS PRINT TEST 2023-12-20 10:39:59
+========================================================
+START AUTHENTICATE USER - FAILED PRINT TEST 2023-12-20 10:39:59
+Authentication failed.
+-> Check your login credentials.
+END AUTHENTICATE USER - FAILED PRINT TEST 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+=========================================================
+START AUTHENTICATE USER - SUCCESS PRINT TEST 2023-12-20 10:40:03
+Authentication success.
+-> Username : bob with Userpassword : builder, your are correctly authenticate.
+END AUTHENTICATE USER - SUCCESS PRINT TEST 
+=====================================================
+========================================================================
+START AUTHENTICATION AND PERMISSION - SUCCESS PRINT TEST 2023-12-20 10:40:27
+====================================================================
+START AUTHENTICATION AND PERMISSION - FAILED PRINT TEST 2023-12-20 10:40:27
+Authentication failed.
+Check your login credentials.
+END AUTHENTICATION AND PERMISSION - FAILED PRINT TEST 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+========================================================================
+START AUTHENTICATION AND PERMISSION - SUCCESS PRINT TEST 2023-12-20 10:40:32
+Return permissions success.
+-> Username : alice, is authorized to access : ['v1', 'v2']
+END AUTHENTICATION AND PERMISSION - SUCCESS PRINT TEST 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+========================================================================
+START AUTHENTICATION AND PERMISSION - SUCCESS PRINT TEST 2023-12-20 10:40:44
+====================================================================
+START AUTHENTICATION AND PERMISSION - FAILED PRINT TEST 2023-12-20 10:40:44
+Authentication failed.
+Check your login credentials.
+END AUTHENTICATION AND PERMISSION - FAILED PRINT TEST 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+========================================================================
+START AUTHENTICATION AND PERMISSION - SUCCESS PRINT TEST 2023-12-20 10:40:51
+Return permissions success.
+-> Username : bob, is authorized to access : v1
+END AUTHENTICATION AND PERMISSION - SUCCESS PRINT TEST 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+==========================================================
+START AUTHENTICATION LOG - SUCCESS PRINT TEST 2023-12-20 10:41:07
+Here we print environment variables into authentication_volume/_data/log.txtVar: API_PORT, Value: 8001
+Here we print environment variables into authentication_volume/_data/log.txtVar: HOSTNAME, Value: d67ee9761f37
+Here we print environment variables into authentication_volume/_data/log.txtVar: PYTHON_PIP_VERSION, Value: 21.1.3
+Here we print environment variables into authentication_volume/_data/log.txtVar: HOME, Value: /root
+Here we print environment variables into authentication_volume/_data/log.txtVar: MY_VARIABLE, Value: authentication_API
+Here we print environment variables into authentication_volume/_data/log.txtVar: GPG_KEY, Value: E3FF2839C048B25C084DEBE9B26995E310250568
+Here we print environment variables into authentication_volume/_data/log.txtVar: PYTHON_GET_PIP_URL, Value: https://github.com/pypa/get-pip/raw/a1675ab6c2bd898ed82b1f58c486097f763c74a9/public/get-pip.py
+Here we print environment variables into authentication_volume/_data/log.txtVar: PATH, Value: /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Here we print environment variables into authentication_volume/_data/log.txtVar: LANG, Value: C.UTF-8
+Here we print environment variables into authentication_volume/_data/log.txtVar: LOG_URL, Value: /var/lib/docker/volumes/authentication_volume/_data
+Here we print environment variables into authentication_volume/_data/log.txtVar: PYTHON_VERSION, Value: 3.8.10
+Here we print environment variables into authentication_volume/_data/log.txtVar: PWD, Value: /Authentication
+Here we print environment variables into authentication_volume/_data/log.txtVar: PYTHON_GET_PIP_SHA256, Value: 6665659241292b2147b58922b9ffe11dda66b39d52d8a6f3aa310bc1d60ea6f7
+Here we print environment variables into authentication_volume/_data/log.txtVar: API_ADDRESS, Value: 52.31.149.201
+Here we print environment variables into authentication_volume/_data/log.txtVar: LOG, Value: 1
+END AUTHENTICATION LOG - SUCCESS PRINT TEST 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
