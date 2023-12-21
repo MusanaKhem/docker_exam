@@ -96,3 +96,8 @@ Var: API_ADDRESS, Value: 52.31.149.201
 Var: LOG, Value: 1
 END AUTHORIZATION ENVIRONMENT VARIABLES - PRINT TEST SUCCESS
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+=============================================
+START INDEX - SUCCESS PRINT TEST 2023-12-20 13:45:17
+You are accessing to authorization_API
+END INDEX - SUCCESS PRINT TEST 
+- - - - - - - - - - - - - - - - - - - - - - -

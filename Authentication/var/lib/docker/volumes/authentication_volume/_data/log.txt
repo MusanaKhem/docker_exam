@@ -85,3 +85,9 @@ Here we print environment variables into authentication_volume/_data/log.txtVar:
 Here we print environment variables into authentication_volume/_data/log.txtVar: LOG, Value: 1
 END AUTHENTICATION LOG - SUCCESS PRINT TEST 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+===============================================
+START INDEX - SUCCESS PRINT TEST 2023-12-20 14:13:37
+-> You are accessing to authentication_API
+
+END OF INDEX - SUCCESS PRINT TEST 
+- - - - - - - - - - - - - - - - - - - - - - - -
