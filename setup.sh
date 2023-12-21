@@ -37,7 +37,7 @@ docker rmi docker_exam_authentication
 docker rmi docker_exam_authorization
 docker rmi docker_exam_content
 # Build all application using docker-compose file in detach mode
-docker-compose up --build
+docker-compose up --build -d
 # Vérify if applications'containers were correctly built
 docker container ls -a
 # Verify if applications'containers were correctly launched
